@@ -5,8 +5,8 @@ const Cards = (station,update) => {
 	const col = $('<div class="col s12">');
 	const detailGrifo = $('<div class="card-panel">');
 	const name = $(`<h5>${station.name}</h5>`);
-  const address = $(`<p class="grey-text">${station.address}</p>`);
-  const district = $(`<p class="grey-text">${station.district}</p>`);
+	const address = $(`<p class="grey-text">${station.address}</p>`);
+	const district = $(`<p class="grey-text">${station.district}</p>`);
 	const iconMap = $('<span class="right"><i class="fa fa-map grey-text" aria-hidden="true"></i></span>');
 
 	detailGrifo.append(iconMap);
