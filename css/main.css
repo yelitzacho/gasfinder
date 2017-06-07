@@ -42,7 +42,27 @@ nav{
   padding: 12px;
 }
 
-.containerMap{
+.map{
   height: 60vh;
-  background-color: green;
+}
+
+#cardGrifo .card-panel{
+  margin: 0;
+  padding: 17px;
+  color: #000;
+  background-color: #fff !important;
+  box-shadow: none;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+#cardGrifo h5{
+  font-size: 1.8rem;
+  line-height: 100%;
+  font-weight: 500;
+}
+
+#cardGrifo p{
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2;
 }
