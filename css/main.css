@@ -9,9 +9,9 @@ header {
   color: #fff;
   font-size: 26px;
   font-weight: 600;
-  height: 60px;
-  line-height: 60px;
-  background-color: #F44336;
+  height: 55px;
+  line-height: 55px;
+  background-color: #f44336;
 }
 
 header .fa-chevron-left {
@@ -30,7 +30,7 @@ nav{
   line-height: 60px;
   box-shadow: none;
   border: 2px solid rgba(255, 255, 255, 0.75);
-  background-color: #F44336;
+  background-color: #f44336;
 }
 
 .root{
@@ -38,12 +38,12 @@ nav{
 }
 
 .container-header{
-  background-color: #F44336;
+  background-color: #f44336;
   padding: 12px;
 }
 
 .map{
-  height: 60vh;
+  height: 50vh;
 }
 
 #cardGrifo .card-panel{
@@ -65,4 +65,11 @@ nav{
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 2;
+}
+
+.products{
+  border: 1px solid black;
+  border-radius: 12px;
+  margin: 20px;
+  height: 45px;
 }

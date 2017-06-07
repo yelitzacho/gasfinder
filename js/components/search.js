@@ -15,16 +15,12 @@ const Search = (update) => {
 	const map = $('<div class="map"></div>');
 
 	label.append(iconLabel);
-	inputField.append(input);
-	inputField.append(label);
-	inputField.append(close);
+	inputField.append(input,label,close);
 	form.append(inputField);
 	navWrapper.append(form);
 	nav.append(navWrapper);
 	container.append(nav);
-	section.append(container);
-	section.append(containerCards);
-	section.append(map);
+	section.append(container,containerCards,map);
 
 	input.on('keyup',(e)=>{
     map.empty();
